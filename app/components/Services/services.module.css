@@ -1,0 +1,49 @@
+/* Maintains a square aspect ratio */
+.imageWrapper {
+	margin-top: 24px;
+	position: relative;
+	width: 189px;
+	padding-bottom: 189px; /* Maintains square aspect ratio */
+	overflow: hidden;
+	border-radius: 25px; /* Adjust as needed */
+}
+
+/* Styles for images */
+.image {
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	object-fit: cover;
+	border-radius: 25px; /* Adjust as needed */
+}
+
+/* Responsive adjustments */
+@media (min-width: 640px) {
+	/* sm */
+	.imageWrapper {
+		padding-bottom: 189px; /* Maintain square aspect ratio */
+	}
+}
+
+@media (min-width: 768px) {
+	/* md */
+	.imageWrapper {
+		padding-bottom: 189px; /* Maintain square aspect ratio */
+	}
+}
+
+@media (min-width: 1024px) {
+	/* lg */
+	.imageWrapper {
+		padding-bottom: 189px; /* Maintain square aspect ratio */
+	}
+}
+
+@media (min-width: 1280px) {
+	/* xl */
+	.imageWrapper {
+		padding-bottom: 189px; /* Maintain square aspect ratio */
+	}
+}
