@@ -1,0 +1,23 @@
+.imageWrapper {
+	width: 100%; /* Make the wrapper take the full width of its parent */
+	max-width: 125px; /* Set a max width for larger screens */
+	height: auto; /* Keep the height proportional to the width */
+}
+
+.responsiveImage {
+	width: 100%; /* Make the image fill the wrapper */
+	height: auto; /* Maintain aspect ratio */
+}
+.imageWrapper1 {
+	width: 100%; /* Make the wrapper take the full width of its parent */
+	max-width: 126px; /* Set a max width for larger screens */
+	height: auto; /* Keep the height proportional to the width */
+}
+
+.responsiveImage1 {
+	width: 100%; /* Make the image fill the wrapper */
+	height: auto; /* Maintain aspect ratio */
+}
+.heading {
+	letter-spacing: 1px;
+}
