@@ -23,14 +23,14 @@
 @media (min-width: 640px) {
 	/* sm */
 	.imageWrapper {
-		padding-bottom: 189px; /* Maintain square aspect ratio */
+		padding-bottom: 200px; /* Maintain square aspect ratio */
 	}
 }
 
 @media (min-width: 768px) {
 	/* md */
 	.imageWrapper {
-		padding-bottom: 189px; /* Maintain square aspect ratio */
+		padding-bottom: 200px; /* Maintain square aspect ratio */
 	}
 }
 

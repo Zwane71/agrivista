@@ -46,9 +46,9 @@ const Farming = () => {
 			</div>
 			<div className='flex space-y-5 sm:flex-col md:flex-col lg:flex-row flex-col p-3 '>
 				<h1 className={styles.heading}>
-					<h1 className=' mt-28 sm:mt-28 md:mt-44 lg:mt-52 xl:mt-64 text-[30px] sm:text-[30px] md:text-[36px] lg:text-[54px] xl:text-[72px] leading-[22px] sm:leading-[21.56px] md:leading-[41.04px] lg:leading-[61.56px] xl:leading-[82.08px] font-bold text-[#204E51]'>
+					<p className=' mt-28 sm:mt-28 md:mt-44 lg:mt-52 xl:mt-64 text-[30px] sm:text-[30px] md:text-[36px] lg:text-[54px] xl:text-[72px] leading-[22px] sm:leading-[21.56px] md:leading-[41.04px] lg:leading-[61.56px] xl:leading-[82.08px] font-bold text-[#204E51]'>
 						The Benefits Of Choosing Our Expertise
-					</h1>
+					</p>
 					<p className='mt-4 font-light sm:text-xs md:text-xs lg:text-sm xl:text-[20px] sm:leading-3 md:leading-4 lg:leading-5 xl:leading-7  ml-5'>
 						Li Europan lingues es membres del sam familie. Lor separat
 						existentie es un myth. Por scientie, musica, sport etc, litot Europa

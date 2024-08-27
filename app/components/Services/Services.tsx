@@ -86,7 +86,7 @@ const Services = () => {
 				</p>
 				<div className='flex flex-col lg:flex-row flex-wrap mx-6 lg:mx-24'>
 					<div
-						className='bg-white relative w-full sm:w-[168px] md:w-[196px] lg:w-[225px] xl:w-[281px] h-auto rounded-[25px] mx-auto flex flex-col items-center mt-4'
+						className='bg-white relative w-full sm:w-[168px] md:w-full lg:w-[225px] xl:w-[281px] h-auto rounded-[25px] mx-auto flex flex-col items-center mt-4 p-6'
 						style={{ boxShadow: "0px 4px 4px 0px #00000040" }}>
 						<div className={styles.imageWrapper}>
 							<Image
@@ -97,17 +97,17 @@ const Services = () => {
 							/>
 						</div>
 
-						<h1 className='text-[#204E51] font-montserrat sm:text-[12px] md:text-[14px] lg:text-[18px] xl:text-[24px] font-medium leading-6 text-center mt-6'>
+						<h1 className='text-[#204E51] font-montserrat sm:text-[12px] md:text-[25px] lg:text-[28px] xl:text-[24px] font-medium leading-6 text-center mt-6'>
 							Rice
 						</h1>
-						<p className='mt-10 font-light sm:text-xs md:text-xs lg:text-sm xl:text-[16px] sm:leading-3 md:leading-4 lg:leading-5 xl:leading-7 text-center mx-6'>
+						<p className='mt-10 font-light sm:text-xs md:text-sm lg:text-sm xl:text-[16px] sm:leading-3 md:leading-4 lg:leading-5 xl:leading-7 text-center mx-6'>
 							Li Europan lingues es membres del sam familie. Lor separat
 							existentie es un myth.
 						</p>
 					</div>
 
 					<div
-						className='bg-white relative w-full sm:w-[168px] md:w-[196px] lg:w-[225px] xl:w-[281px] h-auto rounded-[25px] mx-auto flex flex-col items-center mt-4 p-5'
+						className='bg-white relative w-full sm:w-[168px] md:w-full lg:w-[225px] xl:w-[281px] h-auto rounded-[25px] mx-auto flex flex-col items-center mt-4 p-5'
 						style={{ boxShadow: "0px 4px 4px 0px #00000040" }}>
 						<div className={styles.imageWrapper}>
 							<Image
@@ -118,52 +118,52 @@ const Services = () => {
 							/>
 						</div>
 
-						<h1 className='text-[#204E51] font-montserrat sm:text-[12px] md:text-[14px] lg:text-[18px] xl:text-[24px] font-medium leading-6 text-center mt-6 p-5'>
+						<h1 className='text-[#204E51] font-montserrat sm:text-[12px] md:text-[25px] lg:text-[25px] xl:text-[24px] font-medium leading-6 text-center mt-6 p-5'>
 							Wheat
 						</h1>
-						<p className='mt-10 font-light sm:text-xs md:text-xs lg:text-sm xl:text-[16px] sm:leading-3 md:leading-4 lg:leading-5 xl:leading-7 text-center mx-6 p-5'>
+						<p className='mt-10 font-light sm:text-xs md:text-sm lg:text-md xl:text-[16px] sm:leading-3 md:leading-4 lg:leading-5 xl:leading-7 text-center mx-6'>
 							Li Europan lingues es membres del sam familie. Lor separat
-							existentie es un myth.
+							existentie es un myth
 						</p>
 					</div>
 
 					<div
-						className='bg-white relative w-full sm:w-[168px] md:w-[196px] lg:w-[225px] xl:w-[281px] h-auto rounded-[25px] mx-auto flex flex-col items-center mt-4 p-5'
+						className='bg-white relative w-full sm:w-[168px] md:w-full lg:w-[225px] xl:w-[281px] h-auto rounded-[25px] mx-auto flex flex-col items-center mt-4 p-5'
 						style={{ boxShadow: "0px 4px 4px 0px #00000040" }}>
 						<div className={styles.imageWrapper}>
 							<Image
 								src={"/pumpkin.png"}
 								alt={"not found"}
-								layout='fill'
+								fill
 								className={styles.image}
 							/>
 						</div>
 
-						<h1 className='text-[#204E51] font-montserrat sm:text-[12px] md:text-[14px] lg:text-[18px] xl:text-[24px] font-medium leading-6 text-center mt-6'>
+						<h1 className='text-[#204E51] font-montserrat sm:text-[12px] md:text-[25px] lg:text-[18px] xl:text-[24px] font-medium leading-6 text-center mt-6'>
 							Pumpkin
 						</h1>
-						<p className='mt-10 font-light sm:text-xs md:text-xs lg:text-sm xl:text-[16px] sm:leading-3 md:leading-4 lg:leading-5 xl:leading-7 text-center mx-6'>
+						<p className='mt-10 font-light sm:text-xs md:text-sm lg:text-md xl:text-[16px] sm:leading-3 md:leading-4 lg:leading-5 xl:leading-7 text-center mx-6'>
 							Li Europan lingues es membres del sam familie. Lor separat
 							existentie es un myth.
 						</p>
 					</div>
 
 					<div
-						className='bg-white relative w-full sm:w-[168px] md:w-[196px] lg:w-[225px] xl:w-[281px] h-auto rounded-[25px] mx-auto flex flex-col items-center mt-4 p-5'
+						className='bg-white relative w-full sm:w-[168px] md:w-full lg:w-[225px] xl:w-[281px] h-auto rounded-[25px] mx-auto flex flex-col items-center mt-4 p-5'
 						style={{ boxShadow: "0px 4px 4px 0px #00000040" }}>
 						<div className={styles.imageWrapper}>
 							<Image
 								src={"/cabbage.png"}
 								alt={"not found"}
-								layout='fill'
+								fill
 								className={styles.image}
 							/>
 						</div>
 
-						<h1 className='text-[#204E51] font-montserrat sm:text-[12px] md:text-[14px] lg:text-[18px] xl:text-[24px] font-medium leading-6 text-center mt-6'>
+						<h1 className='text-[#204E51] font-montserrat sm:text-[12px] md:text-[25px] lg:text-[18px] xl:text-[24px] font-medium leading-6 text-center mt-6'>
 							Cabbage
 						</h1>
-						<p className='mt-10 font-light sm:text-xs md:text-xs lg:text-sm xl:text-[16px] sm:leading-3 md:leading-4 lg:leading-5 xl:leading-7 text-center mx-6'>
+						<p className='mt-10 font-light sm:text-xs md:text-sm lg:text-md xl:text-[16px] sm:leading-3 md:leading-4 lg:leading-5 xl:leading-7 text-center mx-6'>
 							Li Europan lingues es membres del sam familie. Lor separat
 							existentie es un myth
 						</p>

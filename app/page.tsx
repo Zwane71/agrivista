@@ -4,6 +4,8 @@ import Body from "./components/Body/Body";
 import Services from "./components/Services/Services";
 import Farming from "./components/farming/Farming";
 import Testimonial from "./components/testimonial/Testimonial";
+import { Carousel } from "react-bootstrap";
+import { Link } from "react-feather";
 
 export default function Home() {
 	return (
