@@ -31,8 +31,8 @@ const Footer = () => {
 						</div>
 					</div>
 
-					<div className='space-x-5'>
-						<h5 className='text-xl font-bold mb-4'>Pages</h5>
+					<div className='space-x-4'>
+						<h5 className='text-xl font-bold mb-4 ml-3'>Pages</h5>
 						<ul className='list-none space-y-2'>
 							<li>
 								<Link href='#!' className='text-white hover:underline'>

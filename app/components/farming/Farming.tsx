@@ -63,7 +63,7 @@ const Farming = () => {
 					</div>
 				</h1>
 
-				<div className='  relative bg-[#204E51] text-white w-[450px] sm:w-[450px] md:w-[500px] lg:w-[580px] xl:w-[670px] p-10 mx-24 sm:mx-24 md:mx-32 lg:mx-32 xl:mx-36 rounded-2xl sm:space-x-5 mt-16'>
+				<div className='  relative bg-[#204E51] text-white w-[350px] sm:w-[450px] md:w-[500px] lg:w-[580px] xl:w-[670px] p-10 mx-24 sm:mx-24 md:mx-32 lg:mx-32 xl:mx-36 rounded-2xl sm:space-x-5 mt-16'>
 					<div className='flex flex-col space-y-8'>
 						<div className='flex flex-row items-center'>
 							<div className={styles.imageWrapper}>

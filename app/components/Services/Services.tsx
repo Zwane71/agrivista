@@ -17,7 +17,7 @@ const Services = () => {
 			</div>
 			<div className='flex flex-col md:flex-row flex-wrap mx-6 lg:mx-24'>
 				<div
-					className='bg-white w-full sm:w-[168px] sm:h-[168px] md:w-[196px] md:h-[196px] lg:w-[225px] lg:h-[225px] xl:w-[281px] xl:h-[281px] p-4 rounded-[25px] shadow-md mx-auto flex flex-col items-center mt-4'
+					className='bg-white w-full sm:w-full sm:h-auto md:w-[196px] md:h-[196px] lg:w-[225px] lg:h-[225px] xl:w-[281px] xl:h-[281px] p-4 rounded-[25px] shadow-md mx-auto flex flex-col items-center mt-4'
 					style={{ boxShadow: "0px 4px 4px 0px #00000040" }}>
 					<Image
 						src={"/icon.png"}
@@ -32,7 +32,7 @@ const Services = () => {
 				</div>
 
 				<div
-					className='bg-white w-full sm:w-[168px] sm:h-[168px] md:w-[196px] md:h-[196px] lg:w-[225px] lg:h-[225px] xl:w-[281px] xl:h-[281px] p-4 rounded-[25px] shadow-md mx-auto flex flex-col items-center mt-4'
+					className='bg-white w-full sm:w-full sm:h-auto md:w-[196px] md:h-[196px] lg:w-[225px] lg:h-[225px] xl:w-[281px] xl:h-[281px] p-4 rounded-[25px] shadow-md mx-auto flex flex-col items-center mt-4'
 					style={{ boxShadow: "0px 4px 4px 0px #00000040" }}>
 					<Image
 						src={"/intern.png"}
@@ -47,7 +47,7 @@ const Services = () => {
 				</div>
 
 				<div
-					className='bg-white w-full sm:w-[168px] sm:h-[168px] md:w-[196px] md:h-[196px] lg:w-[225px] lg:h-[225px] xl:w-[281px] xl:h-[281px] p-4 rounded-[25px] shadow-md mx-auto flex flex-col items-center mt-4'
+					className='bg-white w-full sm:w-full sm:h-auto md:w-[196px] md:h-[196px] lg:w-[225px] lg:h-[225px] xl:w-[281px] xl:h-[281px] p-4 rounded-[25px] shadow-md mx-auto flex flex-col items-center mt-4'
 					style={{ boxShadow: "0px 4px 4px 0px #00000040" }}>
 					<Image
 						src={"/Graph.png"}
@@ -62,7 +62,7 @@ const Services = () => {
 				</div>
 
 				<div
-					className='bg-white w-full sm:w-[168px] sm:h-[168px] md:w-[196px] md:h-[196px] lg:w-[225px] lg:h-[225px] xl:w-[281px] xl:h-[281px] p-4 rounded-[25px] shadow-md mx-auto flex flex-col items-center mt-4'
+					className='bg-white w-full sm:w-full sm:h-auto md:w-[196px] md:h-[196px] lg:w-[225px] lg:h-[225px] xl:w-[281px] xl:h-[281px] p-4 rounded-[25px] shadow-md mx-auto flex flex-col items-center mt-4'
 					style={{ boxShadow: "0px 4px 4px 0px #00000040" }}>
 					<Image
 						src={"/internet.png"}
@@ -86,13 +86,13 @@ const Services = () => {
 				</p>
 				<div className='flex flex-col lg:flex-row flex-wrap mx-6 lg:mx-24'>
 					<div
-						className='bg-white relative w-full sm:w-[168px] md:w-full lg:w-[225px] xl:w-[281px] h-auto rounded-[25px] mx-auto flex flex-col items-center mt-4 p-6'
+						className='bg-white relative w-full sm:w-full md:w-full lg:w-[225px] xl:w-[281px] h-auto rounded-[25px] mx-auto flex flex-col items-center mt-4 p-6'
 						style={{ boxShadow: "0px 4px 4px 0px #00000040" }}>
 						<div className={styles.imageWrapper}>
 							<Image
 								src={"/rice.png"}
 								alt={"not found"}
-								layout='fill'
+								fill
 								className={styles.image}
 							/>
 						</div>
@@ -107,13 +107,13 @@ const Services = () => {
 					</div>
 
 					<div
-						className='bg-white relative w-full sm:w-[168px] md:w-full lg:w-[225px] xl:w-[281px] h-auto rounded-[25px] mx-auto flex flex-col items-center mt-4 p-5'
+						className='bg-white relative w-full sm:w-full md:w-full lg:w-[225px] xl:w-[281px] h-auto rounded-[25px] mx-auto flex flex-col items-center mt-4 p-5'
 						style={{ boxShadow: "0px 4px 4px 0px #00000040" }}>
 						<div className={styles.imageWrapper}>
 							<Image
 								src={"/wheat.png"}
 								alt={"not found"}
-								layout='fill'
+								fill
 								className={styles.image}
 							/>
 						</div>
@@ -128,7 +128,7 @@ const Services = () => {
 					</div>
 
 					<div
-						className='bg-white relative w-full sm:w-[168px] md:w-full lg:w-[225px] xl:w-[281px] h-auto rounded-[25px] mx-auto flex flex-col items-center mt-4 p-5'
+						className='bg-white relative w-full sm:w-full md:w-full lg:w-[225px] xl:w-[281px] h-auto rounded-[25px] mx-auto flex flex-col items-center mt-4 p-5'
 						style={{ boxShadow: "0px 4px 4px 0px #00000040" }}>
 						<div className={styles.imageWrapper}>
 							<Image
@@ -149,7 +149,7 @@ const Services = () => {
 					</div>
 
 					<div
-						className='bg-white relative w-full sm:w-[168px] md:w-full lg:w-[225px] xl:w-[281px] h-auto rounded-[25px] mx-auto flex flex-col items-center mt-4 p-5'
+						className='bg-white relative w-full sm:w-full md:w-full lg:w-[225px] xl:w-[281px] h-auto rounded-[25px] mx-auto flex flex-col items-center mt-4 p-5'
 						style={{ boxShadow: "0px 4px 4px 0px #00000040" }}>
 						<div className={styles.imageWrapper}>
 							<Image

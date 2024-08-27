@@ -7,16 +7,17 @@ const Navbar = () => {
 	const [isOpen, setIsOpen] = useState(false);
 
 	const toggleMenu = () => {
+		console.log("Toggle Menu clicked, isOpen:", !isOpen); // For debugging
 		setIsOpen(!isOpen);
 	};
 
 	return (
-		<nav className='flex flex-row items-center justify-between bg-white text-black p-4 shadow-md'>
+		<nav className='fixed top-0 left-0 w-full flex flex-row items-center justify-between bg-white text-black p-4 shadow-md z-50'>
 			<div className='text-2xl font-extrabold ml-16'>Agrivista Farms</div>
 
 			{/* Hamburger Icon for Small and Medium Screens */}
 			<div className='md:hidden'>
-				<button onClick={toggleMenu} className='text-2xl'>
+				<button onClick={toggleMenu} className='text-2xl p-2'>
 					{isOpen ? <FiX /> : <FiMenu />}
 				</button>
 			</div>
@@ -49,25 +50,36 @@ const Navbar = () => {
 			</div>
 
 			{/* Dropdown Menu for Small and Medium Screens */}
-			{isOpen && (
-				<div className='absolute top-16 left-0 w-full bg-white flex flex-col items-center md:hidden'>
-					<Link href='/' className='py-2 hover:text-gray-700'>
-						Home
-					</Link>
-					<Link href='/about' className='py-2 hover:text-gray-700'>
-						About Us
-					</Link>
-					<Link href='/pages' className='py-2 hover:text-gray-700'>
-						Pages
-					</Link>
-					<Link href='/login' className='py-2 hover:text-gray-700'>
-						Login
-					</Link>
-					<Link href='/SignUp' className='py-2 hover:text-gray-700'>
-						SignUp
-					</Link>
-				</div>
-			)}
+			<div
+				className={`absolute top-full left-0 w-full bg-white flex flex-col items-center md:hidden transition-transform duration-300 ${
+					isOpen ? "block" : "hidden"
+				}`}>
+				<Link
+					href='/'
+					className='py-2 px-4 w-full text-center hover:bg-gray-200'>
+					Home
+				</Link>
+				<Link
+					href='/about'
+					className='py-2 px-4 w-full text-center hover:bg-gray-200'>
+					About Us
+				</Link>
+				<Link
+					href='/pages'
+					className='py-2 px-4 w-full text-center hover:bg-gray-200'>
+					Pages
+				</Link>
+				<Link
+					href='/login'
+					className='py-2 px-4 w-full text-center hover:bg-gray-200'>
+					Login
+				</Link>
+				<Link
+					href='/register'
+					className='py-2 px-4 w-full text-center hover:bg-gray-200'>
+					SignUp
+				</Link>
+			</div>
 		</nav>
 	);
 };

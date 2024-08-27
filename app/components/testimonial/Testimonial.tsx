@@ -1,10 +1,11 @@
 "use client";
-
+import EmblaCarousel from "../Carousel/carousel";
 import React from "react";
 import Image from "next/image";
 import styles from "./image.module.css";
 import { Carousel } from "react-bootstrap";
 import Link from "next/link";
+import Carousel2 from "../Carousel/Carousel2";
 
 const Testimonial = () => {
 	return (
@@ -16,19 +17,24 @@ const Testimonial = () => {
 				<div className='text-[rgb(30,30,30)]  flex flex-col mt-4 sm:mt-6 md:mt-8 lg:mt-10 text-[12px] sm:text-[12px] md:text-[14px] lg:text-[16px] lg:font-[400] font-[Raleway]'>
 					<p className='mx-14 sm:mx-14 md:mx-20'>
 						Li Europan lingues es membres del sam familie. Lor separat
-						existentie es un myth. Por scientie, musica, sport etc, litot Europa
-						usa li sam vocabular.
+						existentie es un myth.<br></br> Por scientie, musica, sport etc,
+						litot Europa usa li sam vocabular.
 					</p>
 				</div>
+			</div>
+
+			<div>
+				<Carousel2 />
 			</div>
 			<div className='mt-10'>
 				<h1 className='text-[rgb(32,78,81)] mt-16 text-[28px] sm:text-[38px] md:text-[36px] lg:text-[48px] xl:text-[72px] leading-[74.88px] font-bold text-center'>
 					Our Blog
 				</h1>
-				<div className='text-[rgb(30,30,30)] flex flex-col mt-4 sm:mt-6 md:mt-8 lg:mt-10 text-[12px] sm:text-[12px] md:text-[14px] lg:text-[16px] lg:font-[400] font-[Raleway]'>
-					<p className='mx-6 sm:mx-10 md:mx-20 lg:mx-32 xl:mx-40'>
+				<div className='text-[rgb(30,30,30)] text-center flex flex-col mt-4 sm:mt-6 md:mt-8 lg:mt-10 text-[12px] sm:text-[12px] md:text-[14px] lg:text-[16px] lg:font-[400] font-[Raleway]'>
+					<p className='mx-auto '>
 						Li Europan lingues es membres del sam familie. Lor separat
-						existentie es un myth.
+						existentie es un myth.<br></br>Por scientie, musica, sport etc,
+						litot Europa usa li sam vocabular.
 					</p>
 				</div>
 
